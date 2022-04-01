@@ -10,6 +10,7 @@ function App() {
     <div className="App">
         <h1>Using React Router -2</h1>
         <Routes>
+          <Route path="/" element={<Home/>} />
           <Route path="/home" element={<Home/>} />
           <Route path="/friends" element={<Friends/>} />
           <Route path="/about" element={<About/>} />
